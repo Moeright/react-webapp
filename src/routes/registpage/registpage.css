@@ -1,0 +1,33 @@
+:global(*){list-style:none;}
+.center{}
+.Header{border-bottom:solid 2px #ccc;}
+.List{background:#fff;padding-left:0;padding-top:80px;}
+.List li{
+    width:100%;height:80px;border-bottom: solid 1px #dfdfdf; line-height: 80px;
+    font-size:20px;
+}
+.List li input{
+    border:none;color:#999;height:60px;margin:10px;width:80%;margin-left:25px;
+}
+.tip{
+     font-size:20px; padding:15px;
+}
+.tip p{
+     margin: 15px 0;color:#555;
+}
+.VCode{
+    position:relative;
+}
+.VerCode{
+    position:absolute;top:15px;right:10px;border-radius: 5px; width:20vw;
+     float:right;border:solid 1px #dfdfdf; text-align: center;
+     line-height: 40px; height:40px; border:solid 1px #eee; display: block;
+}
+.tip span{
+    color:#555;
+}
+.register{
+    width:80%;height:60px;background:#ccc;text-align: center;line-height: 30px;color:#fff;
+    font-weight: bold;display: block; margin:20px 0; margin:0 auto; border-radius: 8px;
+    line-height: 60px;
+}

@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0;}
+.content { background-color: #eee ;}
+.navleft{float: left;text-align: center;}
+.ztab{width: 100%;height: auto;margin: 0;padding: 0;}
+.ztab li{list-style: none;float: left;width: 20%;height:124px;text-align: center;}
+.ztab li img {border-radius: 50%;height: 100%;}
+.my-carousel {
+  background: #fff;
+    padding-top: 90px;
+}
+.my-carousel a {
+  display: inline-block;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.my-carousel a img {
+  width: 100%;
+  height: 300px;
+  vertical-align: top;
+}
+.my-carousel .v-item {
+  height:1rem;
+  line-height: 0.72rem;
+  padding-left: 0.2rem;
+}
+.renqi{line-height: 106px;width: 100%;text-align: center;}
+.product-list{width: 100%;}
+:global(.proitem){height: 550px;width: 50%;float: left;padding: 8px;display: flex;box-sizing: border-box;
+  flex-direction: column;justify-content: space-between;}
+:global(.proitem img){width: 100%;}
+.zgoodsname{height: 20px;width: 100%;}
+.zgoodsname p{line-height: 20px;font-size: 12px;}
+.zgoodsprice{font-size: 12px;background-color: #000;width: 100%;height: 20px;text-align: center;}
+.zgoodsprice p{color: #fff;line-height: 20px;}
+:global(.am-navbar) { position: fixed; width: 100%; z-index: 10}

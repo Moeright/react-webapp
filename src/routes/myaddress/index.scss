@@ -1,0 +1,19 @@
+@import '../../../style/usage/core/reset.scss';
+.content{
+    height: 1334px;
+    padding-top: 90px;
+    background: yellow;
+}
+.box{
+    @include border(1px solid #ccc);
+    height: 230px;
+    background: #f7f7f7;
+    margin:24px 16px 24px 16px;
+    padding-left: 20px;
+    font-size: 26px;
+    
+    >div{
+        height: 58px;
+        line-height: 58px;
+    }
+}

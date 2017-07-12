@@ -1,0 +1,176 @@
+@import  '../../../style/usage/core/reset.scss';
+$zhusediao:#01d9ca;
+.hgsall{
+   height: 1334px;
+   width: 100%;
+   background: white;
+}
+.tabbar{
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    background: $zhusediao;
+    @include flexbox();
+    li{
+        width: 20vw;
+        height:60px;
+        line-height: 60px;
+        font-size: 32px;
+        text-align: center;
+        a{
+            color: white;
+            text-align: center;
+        }
+    }
+}
+// 内容切换页面
+
+.tabcontent{
+
+    overflow-y: scroll;
+    background: white;
+    width: 100%;
+    height:100% ; 
+    padding-top:150px;
+    padding-bottom:100px;
+    
+    .hgsworkhome{
+        .hgsworkhomeName{
+          padding-left: 24px;
+            
+            height: 90px;
+            width: 100%;
+            line-height: 90px;
+            background: white;
+            font-size: 32px;
+           
+            @include border(0px 0px 2px 0px,$zhusediao,dashed); 
+            span:nth-child(1){
+                color:#000;
+            }
+            span:nth-child(2){
+                color:$zhusediao;
+            }
+        }
+        .hgsworkhomeContent{
+           height: 202px;
+           width: 100%;
+           font-size: 28px;
+           color:#000;
+           @include border(0px 0px 2px 0px,$zhusediao,dashed); 
+           background: white;
+           padding:24px 0px 36px 0px;
+           @include flexbox();
+           >input{
+               width: 70px;
+               display: inline-block;
+               margin-top: 66px;
+           }
+           
+           .hgsimg{
+               height: 143px;
+               width: 100px;
+               display: inline-block;
+           }
+           .hgsshopdetail{
+               padding-left: 50px;
+               @include flex();
+               height: 143px;
+               color:#000;
+               div{
+               line-height: 53px;
+                    span{
+                        display: inline-block;
+                        width: 180px;
+                       
+                    }
+                    
+               }
+               .hgsprice{
+                   color:#aa9354;
+                   display: inline-block;
+               }
+               
+           }
+           .imgbox{
+                   width: 83px;
+                   display: block;
+                 .img{
+                   display: inline-block;
+                   height: 42px;
+                   width: 42px;
+                     }
+               }
+        }
+        .hgsjiesuan{
+            background: white;
+            padding-left:24px;
+            @include flexbox();
+            height: 102px;
+            @include border(0px 0px 1px 0px ,#dadada,solid);
+            .jiesuanLeft{
+                >div{
+                    height: 48px;
+                    line-height: 48px;
+                    .hgsprice{
+                    color:#aa9354;
+                    display: inline-block;
+               }
+                }
+                @include flex();
+                font-size: 24px;
+                
+            }
+            .jiesuanRight{
+                width: 130px;
+                .fukuan{
+                    margin-top: 24px;
+                    display: inline-block;
+                    width: 110px;
+                    height: 54px;
+                    background: $zhusediao;
+                    color: white;
+                    font-size: 26px;
+                    line-height: 54px;
+                    text-align: center;
+                    @include border-radius(5px);
+                }
+            }
+        }
+        
+    }
+    
+}
+//底层
+.hgsfooter{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    background: #f5f5f5;
+    font-size: 28px;
+    color: #000;
+    line-height: 100px;
+    @include flexbox();
+    .footerLeft{
+        padding-left: 24px;
+        @include flex();
+    }
+    .footerRight{
+        width: 160px;
+        height: 68px;
+        .hebing{
+            color:white;
+            text-align: center;
+            background: $zhusediao;
+            
+            line-height: 68px;
+            display: inline-block;
+            width: 140px;
+            height: 68px;
+            @include border-radius(5px);
+        }
+    }
+}

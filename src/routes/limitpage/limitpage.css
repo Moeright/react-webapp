@@ -1,0 +1,121 @@
+
+.limitHeader{
+    height:11.1vw;
+    width:100%;
+    position: relative;
+}
+.limitHeader .limitTitle{
+    width:100%;
+    line-height: 11vw;
+    font-size:4.5vw;
+    text-align: center;
+    color:#59b3b1;
+}
+.limitHeader .header_gwc{
+    position: absolute;
+    right:5.5vw;
+    top:2.5vw;
+    height:6vw;
+}
+
+.limitContent {
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 14.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.limitContent .limitList{
+    width:90vw;
+    border:1px solid #e5e5e5;
+    overflow: hidden;
+}
+.limitContent .limitList .Lis{
+    width:100%;
+    height:52.5vw;
+    box-sizing: border-box;
+    padding: 2.8vw  0 ;
+    border-bottom:1px solid #e5e5e5;
+    background:#fff;
+ }
+
+ .Lis dl dd{
+    float:left;
+    width:50%;
+    height:47.3vw;
+ }
+ .Lis dl dd .productPic , .productPic img{
+     width:100%;
+ }
+ .Lis dl dd img{
+     width:100%;
+ }
+ .Lis dl dt{
+     float:left;
+     width:50%;
+     height:47.3vw;
+     overflow: hidden;
+ }
+ .Lis .goods-descrip .goods-des-lis{
+     padding:2ew;
+     box-sizing: border-box;
+     width:100%;
+ }
+ .goods-descrip .goods-daojishi{
+    color:#999;
+    font-size:3.4vw;
+    text-indent: 4.4vw;
+    line-height: 5vw;
+    margin-top:2vw;
+ }
+ .goods-descrip .Timeout{
+     height:8.6vw;
+     width:100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     border-bottom: 1px solid #5db7b2;
+ }
+ .goods-descrip .Timeout .times{ 
+    height:4.7vw;
+    width:4.7vw;
+    border-radius: 50%;
+    color:#fff;
+    text-align: center;
+    line-height:4.7vw;
+    font-size:2.6vw;
+    background:#5db7b2;
+ }
+.goods-descrip .Timeout .hanzi{
+    border-radius: 0;
+    background:#fff;
+    font-size:4vw;
+    color:#000;
+}
+.goods-descrip .goods-pname{
+    font-weight: 900;
+    text-align: center;
+    width:100%;
+    font-size:3.7vw;
+    color:#000;
+    line-height:3vw;
+    margin:4vw 0  8vw  0 ;
+}
+.goods-descrip .goods-thisprice{
+    font-size: 3.2vw;
+    color:#baa369;
+    font-weight: 900;
+    text-align: center;
+    line-height: 5vw;
+
+}
+.goods-descrip .goods-oldprice{
+    text-decoration: line-through;
+    color:#999;
+    font-weight: 900;
+    text-align: center;
+    font-size:3vw;
+    line-height: 5vw;
+    
+}

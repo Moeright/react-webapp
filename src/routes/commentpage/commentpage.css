@@ -1,0 +1,220 @@
+*{
+    margin:0;padding:0;
+}
+.noteslist{
+    width:100%;
+    background:#d2d4d9;
+}
+.notesListHeader{
+    width:100%;
+    height:11.2vw;
+    background:#f7f7f7;
+    color:#59b3b1;
+    font-size:5.5vw;
+    text-align: center;
+    line-height:11.2vw;
+    position: fixed;
+    top:0;left: 0;
+}
+.notesListContent{
+    width:100%;
+    overflow: hidden;
+    margin:11.2vw 0;
+    color:#999;
+}
+.notesListContent .notes .notesLis{
+    width:100%;
+    background:#fff;
+    margin-bottom:2.7vw;
+    padding-top:3.7vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.notesLis dl{
+    width:100%;
+    height:13.9vw;
+}
+.notesLis dl .designLogo{
+    width:16.4vw;
+    height:13.9vw;
+    float:left;
+}
+.notesLis dl .designLogo img{
+    float:right;
+    height:13.9vw;
+}
+.notesLis dl .shopInfo{
+    position: relative;
+    width:83vw;
+    height:13.9vw;
+    float:left;
+    padding-left: 2.7vw;
+    box-sizing: border-box;
+
+}
+.notesLis dl .shopInfo .guanzhu{
+    width:12vw;
+    height:4.7vw;
+    font-size: 3vw;
+    text-align: center;
+    color:#59b3b1;
+    line-height: 4.7vw;
+    border-radius:.5vw;
+    border: 1px solid #59b3b1;
+    position:absolute;
+    top:5vw;
+    right:5vw;
+}
+
+.notesLis dl .shopInfo .designer{
+    line-height: 13.9vw;
+    color:#59b3b1;
+}
+.notesLis .description {
+    line-height:8.1vw;
+    padding-left: 2.7vw;
+    font-size: 3.5vw;
+}
+.notesLis .imgLists{
+    width:100%;
+    overflow: hidden;
+    border-bottom:1px solid #e5e5e5;
+    
+}
+.notesLis .imgLists .imgLis{
+    width:30vw;
+    float:left;
+    margin-bottom: 3vw;
+    padding-left: 2.5vw;
+}
+.notesLis .imgLists .imgLis img{
+    width:100%;
+}
+.notesLis .hudong {
+    color:#000;
+    width:100%;
+    height:12.3vw;
+    display: flex;
+    align-items: center;
+}
+.notesLis .hudong .hudongbox{
+    width:auto;
+    height:7.6vw;
+}
+.notesLis .hudong .comment,.notesLis .hudong .like{
+    float:left;
+    display:flex;
+    width:50vw;
+    line-height: 7.6vw;
+    font-size: 3.5vw; 
+    justify-content: center;
+}
+.notesLis .hudong .like{
+    box-sizing: border-box;
+    border-left: 1px solid #e5e5e5;
+}
+:global(.am-icon-koubei){ 
+    margin-top:2vw;
+    float:left;
+}
+.comment .pinglun{
+    float:left;
+    padding-left: 2vw;
+}
+:global(.am-icon-koubei-o){
+    margin-top:2vw;
+    float:left;
+}
+.like .dianzan{
+    float:left;
+    padding-left: 2vw;
+}
+.notesListContent .talkarea{
+    background:#fff;
+   
+    
+}
+.notesListContent .talkarea .talkList{
+    width:100%;
+    background:#fff;
+    border-bottom:1px solid #e5e5e5;
+    padding-top:3.7vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.talkarea .alltalk{
+    font-size: 3.5vw; 
+    line-height: 8vw;
+    border-bottom:1px solid #e5e5e5;
+    overflow: hidden;
+    width:100%;
+    box-sizing: border-box;
+    padding-left: 2.7vw;
+}
+.talkarea .talkList dl{
+    width:100%;
+    height:13.9vw;
+}
+.talkarea .talkList dl .userLogo{
+    width:16.4vw;
+    height:13.9vw;
+    float:left;
+}
+.talkarea .talkList dl .userLogo img{
+    float:right;
+    height:13.9vw;
+}
+.talkarea .talkList dl .userInfo{
+    position: relative;
+    width:83vw;
+    height:13.9vw;
+    float:left;
+    padding-left: 2.7vw;
+    box-sizing: border-box;
+
+}
+:global(.am-icon-down){
+    position:absolute;
+    top:1vw;
+    right:5vw;
+}
+.talkarea  .userInfo .userName{
+    line-height: 9vw;
+    color:#59b3b1;
+}
+.talkarea .talkList .discuss {
+    line-height:8.1vw;
+    padding-left: 2.7vw;
+    font-size: 2.8vw;
+    color:#999;
+}
+.updateTime{
+    color:#000;
+}
+.commentFooter{
+    position:fixed;
+    width:100%;
+    height:11.2vw;
+    background:#f7f7f7;
+    color:#e5e5e5;
+    font-size:3vw;
+    line-height:11.2vw;
+    top:0;left: 0;
+}
+.commentFooter input{
+    width:60vw;
+    height:10vw;
+    line-height:10vw;
+    margin:0.6vw 7vw;
+    float:left;
+    border:1px solid #59b3b1;
+    box-sizing: border-box;
+}
+.commentFooter .submit{
+    width:12vw;
+    margin:0.6vw 7vw;
+    float:left;
+    color:#59b3b1;
+    border:1px solid #59b3b1;
+    box-sizing: border-box;  
+}

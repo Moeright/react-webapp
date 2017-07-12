@@ -1,0 +1,23 @@
+@import '../../../style/usage/core/reset.scss';
+
+ :global(.am-navbar-title){
+    color:#01d9ca!important;
+ }
+ :global(.am-navbar-light){
+    color:#01d9ca!important;
+     
+ }
+ :global(.am-navbar){
+     @include border(0px 0px 1px 0px ,solid ,#b2b2b2)
+ }
+ :global(.am-input-control){
+    input{
+        text-align: right;
+    }
+ }
+ .content{
+     background: #fff;
+     height: 1244px;
+     overflow-y: scroll;
+     
+ }

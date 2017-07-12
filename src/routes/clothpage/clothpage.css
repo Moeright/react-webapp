@@ -1,0 +1,63 @@
+
+
+ul,li{
+    list-style: none;
+}
+.clothGirlMenu,.clothBoyMenu{
+    width:100%;   
+    overflow: hidden;
+}
+
+.clothBoyList,.clothGirlList{
+    width:49vw;
+    float: left;
+    height:22.2vw;
+    background:#fbc4c4;
+    text-align: center;
+    margin:0.5vw;
+    font-size:3vw;
+}
+
+.clothBoyList dd,.clothGirlList dd{
+    height:22.2vw;
+    width:15vw;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clothBoyList dd img,.clothGirlList dd img{
+    width:10vw;
+    float: left;
+}
+.clothBoyList dt,.clothGirlList dt{
+    width:34vw;
+    height:22.2vw;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.clothBoyList dt h6,.clothGirlList dt h6{
+    line-height: 5.2vw;
+    text-align: center;
+    width:34vw;
+    color:#000;
+}
+.am-tabs .am-tabs-top{
+    color:red;
+}
+.qgbox .qgpage{
+    width:80%;
+    height:12vw;
+    line-height: 12vw;
+    text-align: center; 
+    font-weight: 900;
+    border:1px solid #999;
+    font-size: 4vw;
+    margin:10vw;
+    border-radius: 3vw;
+}
+.qgbox .qgpage .fontcolor{
+    color:red;
+}

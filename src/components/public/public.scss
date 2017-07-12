@@ -1,0 +1,34 @@
+@import '../../../style/usage/core/reset.scss';
+$zhusediao:#01d9ca;
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    width: 100%;
+    font-size:36px; 
+    @include flexbox();
+    line-height: 90px;
+    background: white;
+
+    .headerLeft{
+        
+        width: 20vw;
+        .leftarrow{
+            padding-left: 32px;
+            display: inline-block;
+            height: 90px;
+        }
+    }
+    .headerTitle{
+        text-align: center;
+        width: 60vw;
+        color:$zhusediao;
+    }
+    .headerRight{
+        width: 20vw;
+    }
+}
+
+//content

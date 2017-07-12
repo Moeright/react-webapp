@@ -1,0 +1,13 @@
+* { margin: 0; padding: 0;}
+li { list-style: none}
+.header { position: fixed; top: 0;left: 0; width: 100%; line-height: 44px; border-bottom: 1px solid #ccc; text-align: center; background-color: #fff}
+.header ul { display: flex}
+.header-btn { width: 60px;}
+.header-tit { flex: 1}
+
+.footer { position: fixed;  bottom:0;left: 0; width: 100%;background-color: #fff;line-height: 44px; border-top: 1px solid #ccc; text-align: center;}
+.footer li { float: left; width: 33%;}
+.footer .active  { font-weight: bold; color: skyblue}
+.header ~ .content { padding-top: 45px;}
+.sub-header ~ .content { padding-top: 85px;}
+.footer ~ .content { padding-bottom: 45px;}

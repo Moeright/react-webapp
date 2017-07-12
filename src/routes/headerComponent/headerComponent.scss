@@ -1,0 +1,20 @@
+
+@import '../../../style/usage/core/reset.scss';
+$zhusediao:#01d9ca;
+.hgsworkhomeName{
+    padding-left: 24px;
+
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    background: white;
+    font-size: 32px;
+
+    @include border(0px 0px 2px 0px,$zhusediao,dashed); 
+    span:nth-child(1){
+        color:#000;
+    }
+    span:nth-child(2){
+        color:$zhusediao;
+    }
+}

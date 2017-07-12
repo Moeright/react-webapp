@@ -1,0 +1,96 @@
+@import '../../../style/usage/core/reset.scss';
+$myinfobgcolor:#01d9ca;
+ul,li{
+    list-style: none;
+}
+.zongti{
+   width: 100%;
+   height: 1235px;
+   overflow: hidden;
+ 
+   
+}
+.fengedian{
+    height: 1145px;
+    width: 100%;
+    overflow:scroll;
+}
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 36px;
+    height: 90px;
+    width: 100%;
+    background: #fff;
+    @include border();
+    @include flexbox();
+    line-height: 90px;
+    text-align: center;
+    .navLeft{
+        width: 20vw;
+    }
+    .navTitle{
+        width: 60vw;
+        color: $myinfobgcolor;
+        font-weight: 100;
+    }
+    .navRight{
+        width: 10vw;
+    }
+    .navRight1{
+        width: 10vw;
+    }
+    
+    
+}
+.allscroll{
+    height:1200px;
+    width: 100%; 
+}
+//头像区域
+.touxiang{
+    height: 284px;
+    
+    width: 100%;
+    font-size: 32px;
+    background: white;
+    text-align: center;
+    img{
+        margin-top: 28px;
+        display: inline-block;
+        height: 120px;
+        width: 120px;
+        @include border-radius(60px);
+    }
+   p{
+       margin-top: 20px;
+       font-size: 32px;
+       
+   } 
+   .guanzhu{
+       height:78px;
+       width: 100%;
+       @include flexbox();
+       
+       >li{
+           @include flex(1);
+           height: 78px;
+           line-height: 78px;
+           font-size: 30px;
+           color: #272727;
+       } 
+   }
+
+}
+.alllist{
+    background: white;
+    margin-top: 40px;
+}
+.order{
+    margin-top:40px;
+}
+.myset{
+    background: white;
+    margin-top: 40px;
+}

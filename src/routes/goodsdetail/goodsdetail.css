@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+.pic{width: 100%;}
+.title{font-size: 32px;line-height: 80px;margin: 10px;}
+.area{font-size: 24px;color: #999;margin: 10px;}
+.price{color: OrangeRed;font-weight: 700;font-size: 32px;margin: 10px;line-height: 80px;}
+.delivery{font-size: 32px;color: #999;margin: 10px;}
+.my-carousel {
+  background: #fff;
+
+}
+.my-carousel a {
+  display: inline-block;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.my-carousel a img {
+  width: 100%;
+  height: 300px;
+  vertical-align: top;
+}
+.my-carousel .v-item {
+  height:1rem;
+  line-height: 0.72rem;
+  padding-left: 0.2rem;
+}
+.lunbo{width: 100%;}
